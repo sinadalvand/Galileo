@@ -1,0 +1,80 @@
+"degree_course_code" is Contains a unique ID for each degree course, allowing access to all course units and enabling retrieval of detailed information about the degree program using this ID.
+
+"degree_title" is The name of the degree, which will appear on the final certificate issued to the student and can be used to obtain relevant information about the degree course.
+
+"degree_course_type" is Indicates the type of degree course, with values such as "Second cycle degree" for master's, "First cycle degree" for bachelor's, or "Single cycle degree" for single courses.
+
+"activated_in" is Represents the academic year when the degree course was activated, such as 2019/20 indicating the course was established in the 2019-2020 academic year.
+
+"branch" is Indicates the specific branch of the University of Padova where the degree course is offered.
+
+"language" is Specifies the language of instruction for the course, which can be English, Italian, or both English and Italian.
+
+"school" is The school or faculty within the University of Padova that offers the degree course, such as the School of Science or the School of Engineering.
+
+"degree_description" is Offers a detailed overview of the degree course's objectives, including its purpose, educational goals, and the range of subjects and topics that students will study throughout the program.
+
+"course_unit_name" is the name of the course that students can take in a semester of the academic year in a degree program. For instance, "CRYPTOGRAPHY" is the course unit name for one of the courses in the master's degree in computer science.
+
+"course_unit_code" is a unique code assigned to each course unit, making it recognizable within the university. For instance, the "ARTIFICIAL INTELLIGENCE" course has the course_unit_code SCQ0093639.
+
+"course_unit_academic_year" is the academic year in which the course can be taken by the students. Each academic year has two semesters at the University of Padua: the fall semester, which starts from the end of September to the end of February approximately, and the spring semester (sometimes called the winter semester), which starts at the end of February and ends at the end of July approximately. For example, the course unit academic year of the Computability course is A.A. 2024/25, meaning it starts in September 2024 and ends in July 2025.
+
+"degree_course" is the name of the degree awarded by the university to the students. At the University of Padua, a first cycle degree is the same as a Bachelor's degree, which can take 3 to 5 years. A second cycle degree is the same as a Master's degree, which can take 2 to 3 years. The single cycle degree runs as a single cycle; the degree is awarded at the end of five or six years and requires 300-360 credits.
+
+"number_of_ects_credits_allocated" is the number of credits each course can have. ECTS stands for the European Credit Transfer and Accumulation System and is a standard means for comparing academic credits across the European Union and other collaborating European countries. Each course unit can have different credits from 1 to a maximum of about 11 to 12 ECTS. In calculating the workload, 1 ECTS credit is equivalent to about 25 to 30 hours of work. A first cycle (or bachelor's) degree consists of 180 ECTS credits. Usually, a second cycle (or master's) degree equates to 90 or 120 ECTS credits. CFU is another equivalent to ECTS. For example, the course Artificial Intelligence consists of 6 ECTS or CFU credits.
+
+"type_of_assessment" is the way the professors or instructors assess the students. It can be a mark (from 0 to 30 at the University of Padua) or an evaluation, as in some courses like internships or theses.
+
+"department_of_reference" is the department presenting the course. For instance, the department of reference for the course "Natural Language Processing" is the Department of Mathematics.
+
+"mandatory_attendance" indicates whether students are required to attend the classes of a course. It can be either "Yes" or "No." If attendance is mandatory, its value is "Yes"; otherwise, it is "No."
+
+"language_of_instruction" is the language in which the course is taught. At the University of Padua, most courses are taught in Italian or English.
+
+"branch" is the branch where the classes of a course are held. Most courses are held in Padova, but some are in other branches like Legnaro.
+
+"single_course_unit" indicates whether the course can be taken as a single course or is only offered as part of a degree program. Some courses can be attended under the single course unit option, while others cannot.
+
+"optional_course_unit" indicates whether a course is optional or mandatory within a degree program. Mandatory courses must be taken and passed by students before graduation, but for optional courses, students can choose whether to take them.
+
+"course_unit_for_erasmus_students" indicates whether Erasmus students can take the course. The Erasmus Programme is a European funding program established in 1987 that offers university students the possibility of studying or doing an internship abroad for a period of at least 2 months and up to 12 months per cycle of studies. Some courses can be attended by Erasmus and other exchange students, and some cannot.
+
+"course_unit_lecturer" is the name of the professor(s) or instructor(s) or teacher in charge of a course unit. Most courses have one lecturer, but some may have more than one. For example, the course unit lecturer for MACHINE LEARNING is Prof. Fabio Aiolli.
+
+"course_unit_organization_period" is the period in which the classes of a course unit are held. The organization period can be the first semester (fall semester) like the course "VISION AND COGNITIVE SYSTEMS" or the second semester (spring semester) like the course START-UP IN ICT.
+
+"course_unit_organization_year" is the year in which students usually pass the course unit. For example, in a master's degree in computer science, most course units are in the 1st year, while some, like the "Final Exam (Thesis)" or internships, are in the 2nd year.
+
+"course_unit_organization_teaching_method" is the method of instruction for the course units. Most are taught face-to-face, but some are online or may use other methods.
+
+"course_unit_organization_type_of_hours" is the type of hours spent on lectures, lab work, or other activities.
+
+"course_unit_organization_credits" is the ECTS (CFU) allocated for different types of hours. For example, one course may have 1 ECTS for lab work and 5 ECTS for lectures.
+
+"course_unit_organization_teachinghours" is the number of hours the instructors spend on lectures, lab work, or other activities.
+
+"course_unit_organization_hours_of_individual_study" is the average number of hours students should spend studying the material on their own.
+
+"start_of_activities" is when the classes start. Some courses start at the end of September, and some at the end of February. For example, the "ARTIFICIAL INTELLIGENCE" course starts on 30/09/2024, meaning classes start on September 30, 2024.
+
+"end_of_activities" is when the classes end. Some courses end in mid-January, and some at the end of July. For example, the "ARTIFICIAL INTELLIGENCE" course ends on 18/01/2025, meaning classes end on January 18, 2025.
+
+"prerequisites" are the prior knowledge students should have before taking a course. Some courses have prerequisites, and some do not.
+
+"target_skills_and_knowledge" are the topics or subjects taught and covered during the course, or the knowledge that a student will obtain after completing the course.
+
+"examination_methods" are the methods used by the professors to assess students. These can include oral exams, written exams, projects, or other types of assessments.
+
+"assessment_criteria" are the criteria used by the professors to evaluate students' performance. For example, the course "COMPUTABILITY" has the following assessment criteria: The written test contains exercises designed to test the student's ability to use concepts and proof techniques learned during the course for solving new problems.
+
+"planned_learning_activities_and_teaching_methods" are the methods used by the professors to teach students. These can include lectures, seminars, lab activities, etc.
+
+"additional_notes_about_suggested_reading" includes any other materials, such as class notes or online resources, suggested by the professors to help students learn the course material better.
+
+"textbooks_(and_optional_supplementary_readings)" are the books or materials suggested by the professors or used as reference material to prepare the class slides or design the exams.
+
+"course_unit_url" is the URL of the webpage of the University of Padua where the course unit information is available for students to access further details.
+
+"course_degree_code" is the unique code of each degree program. For instance, the course degree code for the master's degree in computer science is SC2598.
+
