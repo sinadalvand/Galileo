@@ -1,2 +1,5 @@
 .idea
 .env
+data/chroma_db
+data/embedding_cache
+data/flag
