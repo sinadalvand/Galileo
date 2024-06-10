@@ -30,3 +30,7 @@ Focused on general information about the University of Padova, and details of co
 Also the chatbot is capable of running on a web interface, where the user can interact with the chatbot by typing the questions and getting the answers.
 
 just run Galileo.py on Colbar or Jupyter notebook and you will be able to interact with the chatbot.
+
+### Note: do not forget to compy data folder to the same directory as the Galileo.py file.
+
+### you can provide ```HUGGINGFACE_KEY``` and ```GROQ_KEY``` in the environment variables. (.env)
