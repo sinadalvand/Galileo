@@ -14,3 +14,19 @@
 <p align="center" style="text-align: center; font-size: x-small">NLP course project 2024/25 </p>
 
 
+Focused on general information about the University of Padova, and details of course units, exams, and schedules. The chatbot is designed to help students and professors to get information about the university and its courses.
+
+# Some examples of questions and answers
+<br>
+
+> Question: can you provide url for the course unit Artificial intelligence for computer science degree?
+> 
+>> Answer: <br>
+>> The URL for the course unit "Artificial Intelligence" for the Computer Science degree is:
+>>
+>> https://en.didattica.unipd.it/off/2024/LM/SC/SC2598/000ZZ/SCQ0093639/N0
+
+
+Also the chatbot is capable of running on a web interface, where the user can interact with the chatbot by typing the questions and getting the answers.
+
+just run Galileo.py on Colbar or Jupyter notebook and you will be able to interact with the chatbot.
