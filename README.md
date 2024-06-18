@@ -15,9 +15,6 @@ the project contains two main Notebook files:
   - `degree_courses.csv` : contains the degree courses data
   - `identity.txt` : contains information about the chatbot
   - `meta_descriptions.txt` : contains description for each column in data files
-- `data-collector` : the folder that contains the code to collect the data from the university of padova website (for now it just covers Science department)
-- `fine-tune` : contain the code to fine-tune the model on the collected data (llama 8b)
-- `methodology-model-selection` : contains code of different model that each member tried to implement and test by using RAG and DeepEval
 - `Galileo.ipynb` : the main file that contains the code of the chatbot
 <br>
 > Note: the data collector file is not necessary to run the chatbot, it is just to collect the data from the website and save it in a csv file
