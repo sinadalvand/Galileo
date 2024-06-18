@@ -1,0 +1,51 @@
+<p><img width="300" height="300" src="./art/galileo.png"></p>
+<h1 id="galileo-chatbot">Galileo Chatbot</h1>
+<p>The Chatbot of university of padova
+<br>
+<br></p>
+<h2 id="setup-instructions">Setup Instructions</h2>
+<h3 id="file-structure">file structure</h3>
+<p>the project contains two main Notebook files:</p>
+<ul>
+<li><code>art folder</code> : contains the image of the chatbot logo</li>
+<li><code>data folder</code> : the folder that contains the collected data from the website which contains four files:<ul>
+<li><code>course_units.csv</code> : contains the course units data</li>
+<li><code>degree_courses.csv</code> : contains the degree courses data</li>
+<li><code>identity.txt</code> : contains information about the chatbot</li>
+<li><code>meta_descriptions.txt</code> : contains description for each column in data files</li>
+</ul>
+</li>
+<li><code>data-collector</code> : the folder that contains the code to collect the data from the university of padova website (for now it just covers Science department)</li>
+<li><code>fine-tune</code> : contain the code to fine-tune the model on the collected data (llama 8b)</li>
+<li><code>methodology-model-selection</code> : contains code of different model that each member tried to implement and test by using RAG and DeepEval</li>
+<li><code>Galileo.ipynb</code> : the main file that contains the code of the chatbot
+<br><blockquote>
+<p>Note: the data collector file is not necessary to run the chatbot, it is just to collect the data from the website and save it in a csv file</p>
+<p>Also the collected data is already saved in the <code>data</code> folder in the project directory</p>
+</blockquote>
+</li>
+</ul>
+<p><br>
+<br></p>
+<h3 id="configuration">configuration</h3>
+<p>for running you need to get two API keys:</p>
+<ul>
+<li><code>Groq</code> : to use llm&#39;s model in Inference mode (here is <code>llama 8b</code>) <a href="https://console.groq.com/keys">Link</a> .</li>
+<li><code>Hugging Face</code> : to use an embedding model (here is <code>all-MiniLM-L6-v2</code>) <a href="https://huggingface.co/settings/tokens">Link</a>.</li>
+</ul>
+<p>To set API keys you should follow different steps for each running environment:</p>
+<ul>
+<li><strong>Google Colab</strong>: you can set the API keys in secrets in left panel of the notebook.</li>
+<li><strong>Local Machine</strong>: you can set the API keys in the <code>.env</code> file in the root of the project directory.</li>
+</ul>
+<p>Use these following keys to define variables:</p>
+<pre><code><span class="hljs-attr">HUGGINGFACE_KEY</span>=hf_...
+<span class="hljs-attr">GROQ_KEY</span>=gsk_...
+</code></pre><p>after setting the API keys you can run the <code>Galileo.ipynb</code> file all cells to run the chatbot.</p>
+<p><br></p>
+<p>the latest cell in the notebook will give you an interface to interact with the chatbot.
+also if you run the notebook in google colab the generated link will be accessible for 72 hours for everyone to share.</p>
+<h2 id="data-collection-optional-for-update-data-">Data Collection [Optional/For Update Data]</h2>
+<p>for collecting the latest data from the university of padova website you can run the <code>DataCollector.ipynb</code> file.
+it will create two csv file that contain course units and degree courses data.
+then put these files in the <code>data</code> folder in the project directory.</p>
