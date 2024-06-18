@@ -53,5 +53,16 @@ it will create two csv file that contain course units and degree courses data.
 then put these files in the `data` folder in the project directory.
 
 
+# Examples
+<br>
+
+> Question: can you provide url for the course unit Artificial intelligence for computer science degree?
+> 
+>> Answer: <br>
+>> The URL for the course unit "Artificial Intelligence" for the Computer Science degree is:
+>>
+>> https://en.didattica.unipd.it/off/2024/LM/SC/SC2598/000ZZ/SCQ0093639/N0
+
+
 
 
